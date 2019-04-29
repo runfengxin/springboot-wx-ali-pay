@@ -1,0 +1,29 @@
+
+
+# 沙箱账号
+pay:
+  alipay:
+    gatewayUrl: https://openapi.alipaydev.com/gateway.do
+    appid: 2016091700532358
+    appPrivateKey: MIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDJhdpZ51uarykmg4jX7Y0DqkVY1ABOx47v1GYk97FOtmEdXlvmFd1IOVAAVJ/bVDiuJnB2KwedV4txblcfMWhU4Oa+W856L1vEC/v/hqv9pXGCeKmooYosu5KPcKEHyKEUD9JXDGNKyJh3/ngKNv82LHrFebaLw6T1PL7Q18D9L8/rgp9clJuMroiFmDTeuYMhajruRa4nMoa+MBI6YhFKqiLUidjO1zq9nIDwuJmC0yX10Sa1pGZMUOnUDZUQfk//Ng3qTAmu+7r1qsst2iPj/RzZUzpUIlalWS1PPrkuupYHUodfT1c6h7Qr3FQEnoX03XR4unW+U1gKz18IOhRtAgMBAAECggEAaDtEQaXpemtIpHP6Dnz+p7uk3JnigtyysJcyMcKvQaARQOhyLeJ3Loj+OP2MJRw9qM2W83e0G4yRQh0pEKg0Z1pf3muLsyTVmOP99h9IzAuLV0ljryXGWva1il1d3LHHpqG8UGvG24I/YikLG3VwsSt2YLdgVI/fvTwrEcfWON1b2lMM+ND4W9R0AOUqtTVGccg6N/y/oiDmr58Yzaz4qP2hOipC11jjO2ImHPfLheRLpLSuQGPsw4ikoozXJv2Ut3d2z97rXKM25qwKaZHkaLbAtLFS3HDJpDTjoRz8TkQPcbo+0FcfdfQVVIekJH3rW52tiithpRLd/ctmKVNNQQKBgQDrKtDJTKQgxcPhYSYgbetjz5SQfC9G8vL44BNKADQwZeSjCvIf70sINcV7OceZdqLDRZe4qsJXApIkzUut492gOc1/ssUAqWt3UIycR1kQxc+dsSgURmLx+Z/S/qwWJZjvZe5aFh1bU8IRXNmRKVNi7D3pw4eQXni95j5lNt9H/QKBgQDbYAqLC95/C6qiJc3ClgnAE8mY5Ht4g86/O6YxXzmTD10892LVWxrseyghUy0kloSkcjezYSqookUjgvtB4tviOFZ7FZy3Uwux3xzFMaWuSF0UnQZhQgUKM7LzHsahl15X4mGROJDKFgHqjP8V7kl76Zz87BjVne4MfLDoQsORMQKBgQCRCEzPeObYF1+gxetfoKrFWaYEHbKCjR7wAjGjN9D38D87lmqQ62FY5OCwCIhiytnCmE7j4twMEVfUPpBn49oxELT+BmCc8d+HLDQrxYzWXUiXtkRDjM1E8nBxDgNPfUx+iFyhTnY4dsV/M8YyUkxM++mLG72leb35T+A3R8oYeQKBgDYHkHEwiisGJ49p+iRbqakZ9oPmehZzeB8XRNZSGq8CkLcsQrZDiv0FVBvpDWw+egq6aseOPeBsntShNNrEUd2EfKAx8XghRvcW+VID6UdkYTBrgB/CD9W0Z/WC9e7khgLlKZyHrvlmtDAda9Ht70FKhzSvvWoXTILczwFVOC9xAoGBAIBmuw6rsuzo7ph8B5BOjrCej+V9kqZf0Z/YjsYTEVo13YudRPkpuONNfI8Jhfwr5JZ1/oGZdR6yy+2HIVq0+ne4kyq6vrnLGHYUvIAHtwmSyDpBRS4adrnspPeLQOPjybaLd4WkZNbYzR2Jc07Z28C9xJbmZCDlOx3y/DHoEDEj
+    alipayPublicKey: MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAy2Gxl6mqh1tg5xlukliS815r+oT2zCMhKJ544lurQSspyC7DdQxu/2Nqbiwk5s2Y3n2dvQdZmcKekJVL13owb0Q5vs/988lZ4byRliFRBsIO/tYQf9CEc2PeW7+28MGBiBTCrsrPHwfzs+2AWpgAAJ06KqycsTgvKQxI0yF6KDNeUkfB1f5r/wBVwW02vR/haxYXmgl7Vo5nNjs+EZ9Erf2uBy4mwdkS3LBnx3jzaqicZWXcRvydt+W+SeGwV7/Sn7wnU83Syn2rXA7oWMHJa6PmAlQRDiK3aaHLDmrSvY42hY0EP9w8dqXGsOB9quwh+JnIuHtpTGhWmmlghRK6FwIDAQAB
+    returnUrl: http://eem3bq.natappfree.cc/alipay/return
+    notifyUrl: http://eem3bq.natappfree.cc/alipay/notify
+  wxpay:
+       appID: wxab8acb865bb1637e
+       mchID: 11473623
+       key: 2ab9071b06b9f739b950ddb41db2690d
+       sandboxKey: 3639bc1370e105aa65f10cd4fef2a3ef
+       certPath: /var/local/cert/apiclient_cert.p12
+       notifyUrl: http://723jak.natappfree.cc/wxpay/refund/notify
+       useSandbox: true
+spring:
+  thymeleaf:
+    prefix: classpath:/templates/
+    suffix: .html
+    mode: HTML5
+    encoding: UTF-8
+server:
+  port: 8081
+
+
